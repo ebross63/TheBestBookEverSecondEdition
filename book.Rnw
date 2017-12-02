@@ -1,0 +1,31 @@
+\documentclass{book}
+
+\usepackage{makeidx}
+\makeindex
+
+\begin{document}
+
+\title{The Best Book Ever, Second Edition}
+\author{Elizabeth \and Tiffany \and Heidi \and Jorge}
+\date{}
+\maketitle
+
+\tableofcontents
+
+<<child='children/gonzales.Rnw'>>=
+
+@
+
+
+<<child='children/beezub.Rnw'>>=
+
+@
+
+
+<<child='children/fitzmaurice.Rnw'>>=
+
+@
+
+\printindex
+
+\end{document}
